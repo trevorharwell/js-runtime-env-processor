@@ -3,6 +3,12 @@ var injectEnvConfiguration = require('../index');
 var runtimeEnvTemplate = require('js-runtime-env').runtimeEnvTemplate;
 
 describe('index', function() {
+  it('should not error with no object', function() {
+    var testString = '';
+    should.doesNotThrow(function() {
+      injectEnvConfiguration(testString);
+    });
+  });
   it('replaces runtime template with values in string', function() {
     var testString = 'var test = \'' + runtimeEnvTemplate + '\';'
     var expected = 'var test = \'{"hello":"world"}' + Array(runtimeEnvTemplate.length-17).join(' ') + '\';';
