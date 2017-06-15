@@ -1,0 +1,36 @@
+{
+  "name": "js-runtime-env-processor",
+  "version": "1.0.0",
+  "description": "Processor to add runtime env injection support for static javascript apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevorharwell/js-runtime-env-processor.git"
+  },
+  "keywords": [
+    "environment",
+    "variable",
+    "env",
+    "var",
+    "config",
+    "runtime",
+    "javascript"
+  ],
+  "author": "Trevor Harwell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trevorharwell/js-runtime-env-processor#issues"
+  },
+  "homepage": "https://github.com/trevorharwell/js-runtime-env-processor#readme",
+  "dependencies": {
+    "js-runtime-env": "1.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "rewire": "^2.5.2",
+    "should": "^11.1.1"
+  }
+}
