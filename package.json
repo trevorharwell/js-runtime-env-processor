@@ -1,6 +1,6 @@
 {
   "name": "js-runtime-env-processor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Processor to add runtime env injection support for static javascript apps",
   "main": "index.js",
   "scripts": {
